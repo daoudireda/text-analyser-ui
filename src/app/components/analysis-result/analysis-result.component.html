@@ -1,0 +1,13 @@
+<div class=" p-2 max-w-lg mx-auto rounded-lg">
+  <div *ngIf="!analysisResult">
+    Make sure to enter your text to get the results down bellow.
+  </div>
+  <div *ngIf="analysisResult" class="mt-6">
+    <h2 class="text-lg font-semibold">Résultats de l'analyse :</h2>
+    <p><strong>Langue :</strong> {{ analysisResult.language }}</p>
+    <p><strong>Sentiment :</strong> {{ analysisResult.sentiment }}</p>
+    <p>
+      <strong>Fréquence des mots :</strong> {{analysisResult.wordFrequency }}
+    </p>
+  </div>
+</div>

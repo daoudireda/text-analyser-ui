@@ -1,0 +1,16 @@
+<div class="p-6 max-w-lg mx-auto bg-white shadow-md rounded-lg">
+  <form (ngSubmit)="submitText()">
+    <textarea
+      class="w-full p-2 border"
+      [(ngModel)]="inputText"
+      rows="5"
+      name="inputText"
+      id="inputText"
+      placeholder="Enter your text here"
+    ></textarea>
+    <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded">
+      Analyze
+    </button>
+  </form>
+</div>
+

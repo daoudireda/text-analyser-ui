@@ -1,6 +1,5 @@
 # TextAnalyserUi
 
-# Text Analyser UI
 
 ## Overview
 Text Analyser UI is a user-friendly interface for analyzing text data. It provides various tools and features to help users gain insights from their text inputs.

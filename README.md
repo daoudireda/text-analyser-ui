@@ -1,27 +1,44 @@
 # TextAnalyserUi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+# Text Analyser UI
 
-## Development server
+## Overview
+Text Analyser UI is a user-friendly interface for analyzing text data. It provides various tools and features to help users gain insights from their text inputs.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
+- **Text Statistics**: Get word count, character count, and more.
+- **Sentiment Analysis**: Analyze the sentiment of the text.
+- **Keyword Extraction**: Identify key terms and phrases.
+- **Language Detection**: Detect the language of the text.
 
-## Code scaffolding
+## Programming Languages Used
+The Text Analyser UI project is built using the following programming languages:
+- Angular
+- HTML
+- CSS(TailwindCSS)
+- TypeScript
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
+To install the project, clone the repository and install the dependencies:
+```bash
+git clone https://github.com/yourusername/text-analyser-ui.git
+cd text-analyser-ui
+npm install
+```
 
-## Build
+## Usage
+To start the application, run:
+```bash
+npm serve
+```
+Open your browser and navigate to `http://localhost:4200`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request.
 
-## Running unit tests
+## Upcoming Features
+- **Advanced Text Summarization**: Summarize long texts into concise summaries.
+- **Export Options**: Export analysis results in various formats (PDF, CSV, etc.).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
